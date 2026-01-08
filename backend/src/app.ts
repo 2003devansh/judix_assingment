@@ -10,9 +10,9 @@ app.use(
   })
 );
 
-app.use("/", (req, res) => {
-  res.send("Server is Boomming BItch");
-});
+// app.use("/", (req, res) => {
+//   res.send("Server is Boomming BItch");
+// });
 
 app.use("/auth", authRoutes);
 
